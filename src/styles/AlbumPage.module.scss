@@ -1,0 +1,37 @@
+.albumPage {
+    padding: 2rem;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+
+    h2 {
+        margin-bottom: 1rem;
+        color: #333;
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+
+        li {
+            margin: 1rem;
+            width: calc(33% - 2rem); 
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            overflow: hidden;
+
+            img {
+                width: 100%;
+                height: auto;
+                display: block;
+            }
+
+            p {
+                padding: 0.5rem;
+                text-align: center;
+                color: #333;
+            }
+        }
+    }
+}
